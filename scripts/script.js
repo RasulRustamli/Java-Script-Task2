@@ -5,20 +5,20 @@ class CustomMatch{
     plus(number) {
 
         this.number+=number;
-        return new CustomMatch(this.number)
+        return this
 
     }
     minus(number){
         this.number-= number;
-        return new CustomMatch(this.number)
+        return this
     }
     multiply(number){
         this.number*=number
-        return new CustomMatch(this.number)
+        return this
     }
     divide(number){
         this.number/=number
-        return new CustomMatch(this.number)
+        return this
     }
 
 
