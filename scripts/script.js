@@ -2,14 +2,14 @@ class CustomMatch{
     constructor(number){
         this.number=number;
     }
-    plus(reqem) {
+    plus(number) {
 
-        this.number+=reqem;
+        this.number+=number;
         return new CustomMatch(this.number)
 
     }
-    minus(n){
-        this.number-= n;
+    minus(number){
+        this.number-= number;
         return new CustomMatch(this.number)
     }
     multiply(number){
